@@ -142,6 +142,10 @@ body {
     border: 3px solid #347fc4;
 }
 
+.section_main iframe:hover {
+    border: solid 3px #989FCE;
+}
+
 
 
 h2 {
@@ -206,21 +210,59 @@ h2 {
 
 @media (max-width: 768px) {
     .header {
-        background-color: antiquewhite;
+        background-color: rgb(165, 105, 28);
         display: flex;
         flex-direction: row;
         width: 100vw;
-        justify-content: flex-start;
+        padding: 1px;
+        align-items: center;
+
     }
 
     .header__lista li {
-        font-size: 15px;
+        font-size: 18px;
+        font-weight: bold;
+
     }
 
     .section_main h1 {
         font-size: 40px;
         position: absolute;
-        left: 15%;
+        left: 22%;
         margin: 20px;
+        color: #347fc4;
+    }
+
+    iframe {
+        display: flex;
+        position: relative;
+
+
+    }
+}
+
+@media(max-width:420px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .img__logo {
+        width: 40px;
+        position: relative;
+        right: 1px;
+    }
+
+    .header__lista li {
+        font-size: 6px;
+        margin: 1px;
+    }
+
+    .header__lista {
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        margin: 1px;
     }
 }
