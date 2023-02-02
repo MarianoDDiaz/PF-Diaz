@@ -22,6 +22,13 @@
     float: left;
 }
 
+.img__bio {
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+    border-radius: 10px;
+}
+
 body {
     background-color: #272838;
     font-family: 'Ubuntu', sans-serif;
@@ -93,7 +100,7 @@ body {
     font-size: 20px;
     background-color: #272838;
     font-weight: bold;
-    padding: 20px;
+    padding: 40px;
     color: #347fc4;
 }
 
@@ -135,12 +142,14 @@ body {
     color: #347fc4;
     font-weight: lighter;
 }
-.section__main{
+
+.section__main {
     background-color: #442b48;
 }
-.section__main h1{
+
+.section__main h1 {
     color: #347fc4;
-padding: 2rem;
+    padding: 2rem;
 }
 
 
@@ -168,7 +177,8 @@ h2 {
 .parrafo__bio {
     font-size: 20px;
     color: #5d536b;
-    margin: 5px;
+
+    
     font-weight: bold;
 
 }
@@ -229,14 +239,15 @@ h2 {
         justify-content: center;
 
     }
-    .img__logo{
-        position:relative;
+
+    .img__logo {
+        position: relative;
         right: 3rem;
 
-     
+
     }
-   
-    .header__lista{
+
+    .header__lista {
         margin: 1px;
     }
 
@@ -245,12 +256,13 @@ h2 {
         font-weight: bold;
 
     }
-    .section_main{
+
+    .section_main {
         display: flex;
-        
+
         text-align: justify;
         justify-content: center;
-        
+
     }
 
     .section_main h1 {
@@ -261,37 +273,39 @@ h2 {
         margin: 10px;
         color: #347fc4;
     }
-    .section_main p{
-        position:relative;
+
+    .section_main p {
+        position: relative;
         right: 60px;
-       
+
         padding: 1px;
         margin: 1px;
         font-size: 2vh;
-      
-       white-space: break-spaces;
-       
 
-       
-        
+        white-space: break-spaces;
+
+
+
+
     }
-        
+
 
     iframe {
         display: none;
         margin: 10px;
-       
+
         width: 50vw;
         position: relative;
         left: 100px;
         bottom: 150px;
-  
-       
-        
+
+
+
 
 
     }
-    .img__logo{
+
+    .img__logo {
         width: 10vh;
     }
 }
@@ -315,26 +329,31 @@ h2 {
         font-size: 13px;
         margin: 1px;
     }
-    .section_main h1{
+
+    .section_main h1 {
         color: #442b48;
         margin: 20px;
         padding: 3px;
         font-size: 30px;
         position: absolute;
         right: 60px;
-       
+
     }
-.section_main p{
-    padding: 20px;
-    color: #347fc4;
-font-size: 15px;
-margin: 5px;
-position: relative;
-left: 2px;
-text-align: justify;
+
+    .section_main p {
+        padding: 20px;
+        color: #347fc4;
+        font-size: 15px;
+        margin: 5px;
+        position: relative;
+        left: 2px;
+        text-align: justify;
+
+    }
+
+    .grid {
+        display: grid;
+        padding: 20px;
+    }
 
 }
-    
-        
-        
-    }
