@@ -99,7 +99,7 @@ body {
     text-align: center;
     font-size: 20px;
     background-color: #272838;
-    font-weight: bold;
+    
     padding: 40px;
     color: #347fc4;
 }
@@ -109,6 +109,7 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 60px;
+    padding: 9px;
 }
 
 
@@ -178,7 +179,7 @@ h2 {
     font-size: 20px;
     color: #5d536b;
 
-    
+
     font-weight: bold;
 
 }
@@ -243,8 +244,6 @@ h2 {
     .img__logo {
         position: relative;
         right: 3rem;
-
-
     }
 
     .header__lista {
@@ -283,12 +282,7 @@ h2 {
         font-size: 2vh;
 
         white-space: break-spaces;
-
-
-
-
     }
-
 
     iframe {
         display: none;
@@ -298,19 +292,12 @@ h2 {
         position: relative;
         left: 100px;
         bottom: 150px;
-
-
-
-
-
     }
 
     .img__logo {
         width: 10vh;
     }
 }
-
-
 
 @media (max-width:420px) {
     .header {
