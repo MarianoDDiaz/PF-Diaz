@@ -45,7 +45,6 @@ body {
 }
 
 .header__lista {
-
     display: flex;
     margin: 40px;
     padding: 5px;
@@ -56,7 +55,6 @@ body {
 
 
 .header__lista li {
-
     list-style: none;
     font-size: 20px;
     font-weight: bold;
@@ -65,28 +63,20 @@ body {
 
 }
 
-
 .header__lista a {
     margin: 5px;
     text-decoration: none;
     color: #442b48;
-
-
 }
 
 .header__lista a:hover {
     border: solid 2px #989FCE;
     border-radius: 10px;
     padding: 2px;
-
-
 }
 
 .header__lista--activo {
-
     font-weight: bold;
-
-
 }
 
 /*section filmografia*/
@@ -99,7 +89,6 @@ body {
     text-align: center;
     font-size: 20px;
     background-color: #272838;
-    
     padding: 40px;
     color: #347fc4;
 }
@@ -145,13 +134,24 @@ body {
 }
 
 .section__main {
-    background-color: #442b48;
+    background-color: #272838;
 }
 
 .section__main h1 {
     color: #347fc4;
     padding: 2rem;
 }
+
+.main__filmo{
+    background-color: #272838;
+    
+}
+.main__filmo h1{
+    color: #347fc4;
+    background-color: #272838;
+    padding: 2rem;
+}
+
 
 
 .section_main iframe {
@@ -166,8 +166,6 @@ body {
     border: solid 3px #989FCE;
 }
 
-
-
 h2 {
     font-size: 40px;
     color: #989FCE;
@@ -178,14 +176,12 @@ h2 {
 .parrafo__bio {
     font-size: 20px;
     color: #5d536b;
-
-
     font-weight: bold;
+    margin: 10px;
 
 }
 
 .form__style {
-
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -226,6 +222,21 @@ h2 {
     list-style: none;
 }
 
+.grid a {
+    color: green;
+    text-decoration: none;
+}
+
+.grid a:hover {
+    color: #347fc4;
+    font-size: 22px;
+}
+
+.blockquote {
+    font-size: 55px;
+    color: #347fc4;
+    padding: 20px;
+}
 
 
 
@@ -258,7 +269,6 @@ h2 {
 
     .section_main {
         display: flex;
-
         text-align: justify;
         justify-content: center;
 
@@ -276,11 +286,9 @@ h2 {
     .section_main p {
         position: relative;
         right: 60px;
-
         padding: 1px;
         margin: 1px;
         font-size: 2vh;
-
         white-space: break-spaces;
     }
 
@@ -339,8 +347,9 @@ h2 {
     }
 
     .grid {
-        display: grid;
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
     }
 
 }
