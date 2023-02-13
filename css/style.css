@@ -5,15 +5,13 @@
 
 }
 
-/*Imagenes*/
+/*IMAGENES*/
 
 .img__logo {
     box-shadow: 5px 8px 12px black;
     float: left;
     margin: 10px;
     width: 100px;
-
-
 }
 
 .img__index {
@@ -34,7 +32,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/*Header*/
+/*HEADER*/
 
 .header {
     background-color: #347fc4;
@@ -53,14 +51,12 @@ body {
 
 }
 
-
 .header__lista li {
     list-style: none;
     font-size: 20px;
     font-weight: bold;
     color: #347fc4;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
 .header__lista a {
@@ -79,7 +75,7 @@ body {
     font-weight: bold;
 }
 
-/*section filmografia*/
+/*SECCION FILMOGRAFIA*/
 
 .grid {
     display: grid;
@@ -101,8 +97,29 @@ body {
     padding: 9px;
 }
 
+.main__filmo {
+    background-color: #272838;
 
-/*main index*/
+}
+
+.main__filmo h1 {
+    color: #347fc4;
+    background-color: #272838;
+    padding: 2rem;
+}
+
+.grid a {
+    color: green;
+    text-decoration: none;
+}
+
+.grid a:hover {
+    color: #347fc4;
+    font-size: 22px;
+}
+
+
+/*INDEX*/
 
 .section_main {
     display: flex;
@@ -142,18 +159,6 @@ body {
     padding: 2rem;
 }
 
-.main__filmo{
-    background-color: #272838;
-    
-}
-.main__filmo h1{
-    color: #347fc4;
-    background-color: #272838;
-    padding: 2rem;
-}
-
-
-
 .section_main iframe {
     position: absolute;
     top: 55%;
@@ -175,10 +180,11 @@ h2 {
 
 .parrafo__bio {
     font-size: 20px;
-    color: #5d536b;
+    color: #989FCE;
     font-weight: bold;
     margin: 10px;
-
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .form__style {
@@ -204,7 +210,7 @@ h2 {
     background-color: #347fc4;
     height: 150px;
     border: 3px solid #442b48;
-    border-top: 3px solid #347fc4;
+
 }
 
 .footer__style h3 {
@@ -222,23 +228,45 @@ h2 {
     list-style: none;
 }
 
-.grid a {
-    color: green;
-    text-decoration: none;
-}
-
-.grid a:hover {
-    color: #347fc4;
-    font-size: 22px;
-}
 
 .blockquote {
     font-size: 55px;
     color: #347fc4;
     padding: 20px;
+    margin: 0%;
 }
 
+/*SECCION CONTACTO*/
 
+.form-row {
+    color: #347fc4;
+    margin: 20px;
+}
+
+.form-group {
+    color: #347fc4;
+    padding: 0%;
+}
+
+.form-check {
+    margin: 20px;
+}
+
+.btn {
+    margin: 20px;
+}
+
+/*SECCION CURIOSIDADES*/
+
+.section__main li {
+    color: #347fc4;
+    font-size: 20px;
+    list-style: circle;
+    padding: 5px;
+}
+.section__main ol{
+    margin: 0%;
+}
 
 @media (max-width: 768px) {
     .header {
@@ -272,6 +300,8 @@ h2 {
         text-align: justify;
         justify-content: center;
 
+
+
     }
 
     .section_main h1 {
@@ -284,12 +314,18 @@ h2 {
     }
 
     .section_main p {
-        position: relative;
-        right: 60px;
-        padding: 1px;
-        margin: 1px;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
         font-size: 2vh;
-        white-space: break-spaces;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+
+
+
+
     }
 
     iframe {
@@ -320,6 +356,10 @@ h2 {
         right: 1px;
     }
 
+    .img__index {
+        width: 100%;
+    }
+
     .header__lista li {
         font-size: 13px;
         margin: 1px;
@@ -327,22 +367,23 @@ h2 {
 
     .section_main h1 {
         color: #442b48;
-        margin: 20px;
-        padding: 3px;
+        margin: 10px;
+        padding: 1px;
         font-size: 30px;
-        position: absolute;
-        right: 60px;
+        right: 100px;
+
 
     }
 
     .section_main p {
-        padding: 20px;
+        padding: 50px;
         color: #347fc4;
         font-size: 15px;
         margin: 5px;
-        position: relative;
-        left: 2px;
-        text-align: justify;
+        text-align: center;
+        justify-content: center;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
 
     }
 

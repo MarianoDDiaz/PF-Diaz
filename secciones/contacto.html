@@ -24,38 +24,63 @@
                     <a href="./biografia.html">Biografia</a>
                 </li>
                 <li class="animate__animated animate__heartBeat">
+
                     <a href="./Filmografia.html">Filmografia</a>
                 </li>
                 <li class="animate__animated animate__heartBeat">
-                    <a href="./preguntas-frecuentes.html">Preguntas Frecuentes</a>
+
+                    <a href="./Curiosidades.html">Curiosidades</a>
                 </li>
                 <li class="animate__animated animate__heartBeat">
-                    <a href="./contacto.html" class="header__lista--activo" >Contacto</a>
+
+                    <a href="./secciones/contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
     
-        <main>
-            <h3>Contacto</h3>
+        <main class="section__main">
+            <h1>Contacto</h1>
           
-            <form  class="form__style" action="#" method="get">
-                <input type="text" placeholder="Nombre Completo" name="nombre">
-                <br><br>
-                <input type="number" placeholder="Edad" name="Edad">
-                <br><br>
-                <input type="text" placeholder="Telefono" name="Tel">
-                <br><br>
-                <input type="email" name="email" id="email">
-                <br><br>
-                <span>Suscribirse a Newslestter</span>
-                <br><br>
-                <select name="Newslestter">
-                    <option value="V">SI</option>
-                    <option value="F">NO</option>
-                </select>
-                <input type="submit">
-            </form>
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                  </div>
+                </div>
+                
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">Provincia</label>
+                    <select id="inputState" class="form-control">
+                      <option selected></option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">CP</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success">Sign in</button>
+              </form>
         </main>
    
     <footer  class="footer__style">
