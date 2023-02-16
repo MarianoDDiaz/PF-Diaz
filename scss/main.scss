@@ -1,4 +1,4 @@
-@import './header';
+@import './Sections/header';
 @import './Sections/footer';
 @import './Sections/main_index';
 
@@ -32,10 +32,7 @@
     border-radius: 10px;
 }
 
-body {
-    background-color: #272838;
-    font-family: 'Ubuntu', sans-serif;
-}
+
 
 /*SECCION FILMOGRAFIA*/
 
@@ -49,6 +46,17 @@ body {
     background-color: #272838;
     padding: 40px;
     color: #347fc4;
+
+    a {
+        color: green;
+        text-decoration: none;
+
+        &:hover {
+            color: #347fc4;
+            font-size: 22px;
+
+        }
+    }
 }
 
 .img__cover {
@@ -57,28 +65,24 @@ body {
     object-fit: cover;
     border-radius: 60px;
     padding: 9px;
+
+    &:hover {
+        width: 105%;
+        height: 105%;
+    }
 }
 
 .main__filmo {
     background-color: #272838;
 
+    h1 {
+        color: #347fc4;
+        background-color: #272838;
+        padding: 2rem;
+    }
 }
 
-.main__filmo h1 {
-    color: #347fc4;
-    background-color: #272838;
-    padding: 2rem;
-}
 
-.grid a {
-    color: green;
-    text-decoration: none;
-}
-
-.grid a:hover {
-    color: #347fc4;
-    font-size: 22px;
-}
 
 h2 {
     font-size: 40px;
@@ -94,6 +98,15 @@ h2 {
     margin: 10px;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+.section__main {
+    background-color: $color-principal;
+}
+
+.section__main h1 {
+    color: #347fc4;
+    padding: 2rem;
 }
 
 .animate__animated {
@@ -137,16 +150,10 @@ h2 {
     font-size: 20px;
     list-style: circle;
     padding: 5px;
-}
-
-.section__main ol {
+ol {
     margin: 0%;
 }
-
-
-
-
-
+}
 
 @media (max-width:420px) {
     .header {
@@ -168,28 +175,6 @@ h2 {
     .header__lista li {
         font-size: 13px;
         margin: 1px;
-    }
-
-    .section_main h1 {
-        color: #442b48;
-        margin: 10px;
-        padding: 1px;
-        font-size: 30px;
-        right: 100px;
-
-
-    }
-
-    .section_main p {
-        padding: 50px;
-        color: #347fc4;
-        font-size: 15px;
-        margin: 5px;
-        text-align: center;
-        justify-content: center;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-
     }
 
     .grid {

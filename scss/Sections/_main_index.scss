@@ -23,7 +23,7 @@
     margin: 40px;
     left: 33%;
     font-size: 50px;
-    color: #347fc4;
+    color: $color-footer-header;
     font-weight: lighter;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .section__main h1 {
-    color: #347fc4;
+    color: $color-footer-header;
     padding: 2rem;
 }
 
@@ -41,12 +41,13 @@
     top: 55%;
     margin: 20px;
     margin-left: 80px;
-    border: 3px solid #347fc4;
+    border: 3px solid $color-footer-header;
 }
 
 .section_main iframe:hover {
     border: solid 3px #989FCE;
 }
+
 
 @media (max-width: 768px) {
 
@@ -55,40 +56,41 @@
         display: flex;
         text-align: justify;
         justify-content: center;
-    }
 
-    .section_main h1 {
-        font-size: 30px;
-        font-weight: bold;
-        position: absolute;
-        left: 25%;
-        margin: 10px;
-        color: #347fc4;
-    }
 
-    .section_main p {
-        text-align: center;
-        justify-content: center;
-        padding: 10px;
-        margin: 10px;
-        font-size: 2vh;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-    }
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            position: absolute;
+            left: 25%;
+            margin: 10px;
+            color: $color-footer-header;
+        }
 
-    iframe {
-        display: none;
-        margin: 10px;
+        p {
+            text-align: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px;
+            font-size: 2vh;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
 
-        width: 50vw;
-        position: relative;
-        left: 100px;
-        bottom: 150px;
-    }
+        iframe {
+            display: none;
+            margin: 10px;
 
-    .img__logo {
-        width: 10vh;
+            width: 50vw;
+            position: relative;
+            left: 100px;
+            bottom: 150px;
+        }
+
+        .img__logo {
+            width: 10vh;
+        }
     }
 }
 
@@ -99,11 +101,13 @@
         padding: 1px;
         font-size: 30px;
         right: 100px;
+
+
     }
 
     .section_main p {
         padding: 50px;
-        color: #347fc4;
+        color: $color-footer-header;
         font-size: 15px;
         margin: 5px;
         text-align: center;
