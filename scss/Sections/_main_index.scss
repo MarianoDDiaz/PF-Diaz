@@ -1,0 +1,115 @@
+.section_main {
+    display: flex;
+    color: #442b48;
+    font-weight: bold;
+    background-color: #442b48;
+
+}
+
+.section_main p {
+    display: flex;
+    position: relative;
+    bottom: 90%;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.section_main h1 {
+    text-align: center;
+    position: absolute;
+    margin: 40px;
+    left: 33%;
+    font-size: 50px;
+    color: #347fc4;
+    font-weight: lighter;
+}
+
+.section__main {
+    background-color: #272838;
+}
+
+.section__main h1 {
+    color: #347fc4;
+    padding: 2rem;
+}
+
+.section_main iframe {
+    position: absolute;
+    top: 55%;
+    margin: 20px;
+    margin-left: 80px;
+    border: 3px solid #347fc4;
+}
+
+.section_main iframe:hover {
+    border: solid 3px #989FCE;
+}
+
+@media (max-width: 768px) {
+
+
+    .section_main {
+        display: flex;
+        text-align: justify;
+        justify-content: center;
+    }
+
+    .section_main h1 {
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        left: 25%;
+        margin: 10px;
+        color: #347fc4;
+    }
+
+    .section_main p {
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+        font-size: 2vh;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+
+    iframe {
+        display: none;
+        margin: 10px;
+
+        width: 50vw;
+        position: relative;
+        left: 100px;
+        bottom: 150px;
+    }
+
+    .img__logo {
+        width: 10vh;
+    }
+}
+
+@media (max-width:420px) {
+    .section_main h1 {
+        color: #442b48;
+        margin: 10px;
+        padding: 1px;
+        font-size: 30px;
+        right: 100px;
+    }
+
+    .section_main p {
+        padding: 50px;
+        color: #347fc4;
+        font-size: 15px;
+        margin: 5px;
+        text-align: center;
+        justify-content: center;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+    }
+}
