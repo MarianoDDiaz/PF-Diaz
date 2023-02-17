@@ -79,6 +79,14 @@
   text-decoration: none;
   list-style: none; }
 
+.footer__style ol {
+  list-style: none; }
+
+.footer__style h2 {
+  font-size: 15px;
+  text-align: end;
+  justify-content: center; }
+
 .section_main {
   display: flex;
   color: #442b48;
@@ -278,7 +286,7 @@ h2 {
 .section__main li {
   color: #347fc4;
   font-size: 20px;
-  list-style: circle;
+  list-style: disc;
   padding: 5px; }
   .section__main li ol {
     margin: 0%; }
