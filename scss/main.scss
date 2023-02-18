@@ -82,13 +82,13 @@
     }
 }
 
+.section__main {
+    background-color: $color-principal;
+}
 
-
-h2 {
-    font-size: 40px;
-    color: #989FCE;
-    text-align: center;
-    margin: 25px;
+.section__main h1 {
+    color: #347fc4;
+    padding: 2rem;
 }
 
 .parrafo__bio {
@@ -98,15 +98,6 @@ h2 {
     margin: 10px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-}
-
-.section__main {
-    background-color: $color-principal;
-}
-
-.section__main h1 {
-    color: #347fc4;
-    padding: 2rem;
 }
 
 .animate__animated {
@@ -144,16 +135,18 @@ h2 {
 }
 
 /*SECCION CURIOSIDADES*/
+.section__main ol {
+    margin: 0%;
+}
 
-.section__main li {
+li {
     color: #347fc4;
     font-size: 20px;
     list-style: disc;
     padding: 5px;
-ol {
-    margin: 0%;
 }
-}
+
+
 
 @media (max-width:420px) {
     .header {

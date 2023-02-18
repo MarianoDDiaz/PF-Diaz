@@ -61,6 +61,7 @@
     margin: 1px; } }
 
 .footer__style {
+  margin: 0%;
   width: 100%;
   background-color: #347fc4;
   height: 150px;
@@ -83,6 +84,7 @@
   list-style: none; }
 
 .footer__style h2 {
+  margin: 20px;
   font-size: 15px;
   text-align: end;
   justify-content: center; }
@@ -234,11 +236,12 @@
     background-color: #272838;
     padding: 2rem; }
 
-h2 {
-  font-size: 40px;
-  color: #989FCE;
-  text-align: center;
-  margin: 25px; }
+.section__main {
+  background-color: #272838; }
+
+.section__main h1 {
+  color: #347fc4;
+  padding: 2rem; }
 
 .parrafo__bio {
   font-size: 20px;
@@ -247,13 +250,6 @@ h2 {
   margin: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word; }
-
-.section__main {
-  background-color: #272838; }
-
-.section__main h1 {
-  color: #347fc4;
-  padding: 2rem; }
 
 .animate__animated {
   color: #5d536b;
@@ -283,13 +279,14 @@ h2 {
   margin: 20px; }
 
 /*SECCION CURIOSIDADES*/
-.section__main li {
+.section__main ol {
+  margin: 0%; }
+
+li {
   color: #347fc4;
   font-size: 20px;
   list-style: disc;
   padding: 5px; }
-  .section__main li ol {
-    margin: 0%; }
 
 @media (max-width: 420px) {
   .header {
