@@ -1,12 +1,12 @@
 .footer__style {
-    margin: 0%;
     width: 100%;
     background-color: $color-footer-header;
-    height: 150px;
     border: 3px solid #442b48;
- 
-   
-}
+    margin: 0;
+    padding: 0;
+    
+    bottom: 0;
+ }
 
 .footer__style h3 {
     margin: 5px;

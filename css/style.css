@@ -61,11 +61,12 @@
     margin: 1px; } }
 
 .footer__style {
-  margin: 0%;
   width: 100%;
   background-color: #347fc4;
-  height: 150px;
-  border: 3px solid #442b48; }
+  border: 3px solid #442b48;
+  margin: 0;
+  padding: 0;
+  bottom: 0; }
 
 .footer__style h3 {
   margin: 5px;
@@ -265,6 +266,7 @@
 
 /*SECCION CONTACTO*/
 .form-row {
+  padding: 10px;
   color: #347fc4;
   margin: 20px; }
 
@@ -280,7 +282,8 @@
 
 /*SECCION CURIOSIDADES*/
 .section__main ol {
-  margin: 0%; }
+  padding: 10px;
+  margin: 0; }
 
 li {
   color: #347fc4;
