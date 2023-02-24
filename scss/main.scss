@@ -27,13 +27,14 @@
 }
 
 .img__bio {
-    width: 100%;
+    width: 95%;
     object-fit: cover;
     height: 100px;
     border-radius: 10px;
+    margin: 50px;
 }
 
-i{
+i {
     font-size: 20px;
     color: black;
     padding: 10px;
@@ -54,7 +55,6 @@ i{
     color: #347fc4;
 
     a {
-        color: green;
         text-decoration: none;
 
         &:hover {
@@ -97,15 +97,15 @@ i{
     padding: 2rem;
 }
 
-.section__main i{
+.section__main i {
     color: #347fc4;
 }
 
 .parrafo__bio {
     font-size: 20px;
+    margin: 50px;
     color: #989FCE;
     font-weight: bold;
-    margin: 10px;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -150,17 +150,21 @@ i{
 .section__main ol {
     padding: 10px;
     margin: 0;
-    
+
 }
 
 li {
     color: #347fc4;
     font-size: 20px;
-    list-style:inside;
+    list-style: inside;
     padding: 5px;
 }
 
-
+@media (max-width:768px){
+    .img__bio{
+        width: 90%;
+    }
+}
 
 @media (max-width:420px) {
     .header {
@@ -190,4 +194,9 @@ li {
         padding: 10px;
     }
 
+    .img__bio {
+        width: 80%;
+        margin: 50px;
+        
+    }
 }

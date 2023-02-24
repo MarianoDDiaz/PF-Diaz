@@ -197,10 +197,11 @@
   object-fit: cover; }
 
 .img__bio {
-  width: 100%;
+  width: 95%;
   object-fit: cover;
   height: 100px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin: 50px; }
 
 i {
   font-size: 20px;
@@ -219,7 +220,6 @@ i {
   padding: 40px;
   color: #347fc4; }
   .grid a {
-    color: green;
     text-decoration: none; }
     .grid a:hover {
       color: #347fc4;
@@ -254,9 +254,9 @@ i {
 
 .parrafo__bio {
   font-size: 20px;
+  margin: 50px;
   color: #989FCE;
   font-weight: bold;
-  margin: 10px;
   word-wrap: break-word;
   overflow-wrap: break-word; }
 
@@ -299,6 +299,10 @@ li {
   list-style: inside;
   padding: 5px; }
 
+@media (max-width: 768px) {
+  .img__bio {
+    width: 90%; } }
+
 @media (max-width: 420px) {
   .header {
     display: flex;
@@ -315,4 +319,7 @@ li {
   .grid {
     display: flex;
     flex-direction: column;
-    padding: 10px; } }
+    padding: 10px; }
+  .img__bio {
+    width: 80%;
+    margin: 50px; } }
