@@ -69,27 +69,5 @@ $color-footer-header: #347fc4;
             font-weight: bold;
         }
     }
-
-    @media (max-width:420px) {
-        .header {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .img__logo {
-            width: 40px;
-            position: relative;
-            right: 1px;
-        }
-
-        .img__index {
-            width: 100%;
-        }
-
-        .header__lista li {
-            font-size: 13px;
-            margin: 1px;
-        }
-    }
 }
+

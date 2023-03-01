@@ -161,16 +161,25 @@ li {
     margin: 10px;
 }
 
-@media (max-width:768px){
-    .img__bio{
+@media (max-width: 768px) {
+    .img__bio {
         width: 90%;
     }
+
 }
+
 
 @media (max-width:420px) {
     .header {
         display: flex;
         flex-direction: column;
+
+    }
+
+    iframe {
+        display: none;
+        margin: 10px;
+        width: 50vw;
 
     }
 
@@ -198,6 +207,6 @@ li {
     .img__bio {
         width: 80%;
         margin: 50px;
-        
+
     }
 }
