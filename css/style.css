@@ -154,7 +154,7 @@
     justify-content: center;
     overflow-wrap: normal; }
   .section_main p {
-    padding: 50px;
+    padding: 30px;
     color: #347fc4;
     font-size: 20px;
     margin: 5px;
@@ -170,7 +170,7 @@
 
 /*IMAGENES*/
 .img__logo {
-  box-shadow: 15px 8px 12px 5px black;
+  box-shadow: 6px 5px #5d536b;
   float: left;
   margin: 10px;
   width: 100px; }

@@ -13,7 +13,7 @@
 /*IMAGENES*/
 
 .img__logo {
-    box-shadow: 15px 8px 12px 5px black;
+    box-shadow: 6px 5px #5d536b;
     float: left;
     margin: 10px;
     width: 100px;
@@ -40,7 +40,6 @@ i {
     padding: 10px;
 }
 
-
 /*SECCION FILMOGRAFIA*/
 
 .grid {
@@ -60,7 +59,6 @@ i {
         &:hover {
             color: #347fc4;
             font-size: 22px;
-
         }
     }
 }
