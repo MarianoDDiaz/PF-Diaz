@@ -3,7 +3,6 @@
     color: #442b48;
     font-weight: bold;
     background-color: #442b48;
-
 }
 
 .section_main p {
@@ -14,8 +13,6 @@
     text-align: center;
     padding: 20px;
     font-size: 20px;
-
-
 }
 
 .section_main h1 {
@@ -42,6 +39,7 @@
     margin: 20px;
     margin-left: 80px;
     border: 3px solid $color-footer-header;
+    border-radius: 10px;
 }
 
 .section_main iframe:hover {
@@ -53,7 +51,6 @@
         display: flex;
         text-align: justify;
         justify-content: center;
-
 
         h1 {
             font-size: 40px;
@@ -79,7 +76,6 @@
             display: none;
             margin: 10px;
             width: 50vw;
-
         }
 
         .img__logo {
@@ -93,7 +89,7 @@
         color: #442b48;
         margin: 20px;
         padding: 1px;
-        font-size:30px;
+        font-size: 30px;
         right: 100px;
         justify-content: center;
         overflow-wrap: normal;
